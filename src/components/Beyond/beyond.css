@@ -1,0 +1,59 @@
+.beyond{
+  height: 100%;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.beyond__container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.beyond__title-bg{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  font-size: 7rem;
+  font-weight: 400;
+  overflow: hidden;
+  width: 100%;
+  opacity: 0.4;
+  padding: 0rem 1rem;
+  -webkit-filter:blur(7px);
+          filter:blur(7px)
+}
+.beyond__title{
+  position: absolute;
+  z-index: 6;
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.beyond__text{
+  font-size: 2rem;
+  text-align: center;
+  width: 60%;
+}
+
+.for-next{
+  padding-top: 10rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: black;
+  text-decoration: none;
+}
+.listenbourg{
+  padding-top: 1rem;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: red;
+  text-decoration: none;
+}

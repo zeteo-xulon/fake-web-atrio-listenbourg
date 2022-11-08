@@ -1,0 +1,25 @@
+.footer{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 3vw;
+  background-color: #262626;
+  color: #808080;
+  font-size: .75rem;
+  line-height: 1.17;
+  padding: 1.625rem 0;
+}
+.footer__img{
+  height: 4rem;
+  width: 100%;
+  max-width: 15rem;
+  background: url(../../assets/logo.svg) center no-repeat;
+  background-size: 100%;
+}
+.footer__paragraph{
+  max-width: 400px;
+  text-align: left;
+}
+.footer__paragraph > a {
+  color: white;
+}

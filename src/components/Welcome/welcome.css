@@ -1,0 +1,46 @@
+.welcome{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 5vw;
+}
+.welcome__first-paragraph{
+  color: #888888;
+  font-size: 1.7rem;
+  max-width: 500px;
+  text-align:left;
+}
+.welcome__title{
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  color: black;
+  width: 10vw;
+  max-width: 500px;
+  text-align: left;
+}
+.welcome__logo-img{
+  background: url()
+}
+
+
+/* --- bubble --- */
+.welcome-bubble{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.bubble__text{
+  border-radius: 3rem;
+  background-color: rgba(35,116,207,.2);
+  color: #2374cf;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
